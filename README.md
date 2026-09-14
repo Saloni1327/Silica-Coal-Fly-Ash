@@ -1,9 +1,6 @@
 # Coal Fly Ash Valorization: Vitrification and Silica Recovery
 
-An experimental materials-processing project exploring two approaches for the sustainable utilization of **coal fly ash (CFA)**:
-
-1. **Thermal treatment and vitrification** for volume reduction and stabilization
-2. **Alkali-assisted sol-gel processing** for recovery of silica as a value-added material
+An experimental materials-processing project exploring **thermal treatment, vitrification, and silica recovery from coal fly ash (CFA)** as potential pathways for industrial-waste valorization.
 
 **Project:** B.Tech Mini Project  
 **Institution:** COEP Technological University  
@@ -13,82 +10,48 @@ An experimental materials-processing project exploring two approaches for the su
 
 ## Overview
 
-Coal fly ash is a major industrial by-product generated during coal combustion. Conventional disposal routes such as landfilling and ash ponds require substantial land area and may introduce environmental concerns associated with fine particulate matter and potentially hazardous constituents.
+Coal fly ash is a major industrial by-product generated during coal combustion. Conventional disposal methods require significant land area and can create environmental concerns.
 
-At the same time, fly ash contains significant quantities of potentially useful inorganic constituents, particularly silicon- and aluminum-containing phases.
+At the same time, CFA contains potentially valuable inorganic constituents, particularly silicon- and aluminum-containing phases.
 
-This project investigated coal fly ash from a waste-valorization perspective by studying two processing routes:
+This project investigated two approaches for CFA utilization:
 
-- **Pelletization, sintering, and high-temperature vitrification**
-- **Chemical extraction of silica through alkali dissolution and sol-gel precipitation**
+1. **Thermal treatment and vitrification** for physical transformation and volume reduction
+2. **Alkali-assisted sol-gel processing** for recovery of silica as a value-added material
 
-The overall goal was to explore whether CFA could be treated not only as an industrial waste stream, but also as a potential **secondary raw-material source**.
-
----
-
-## Project Objectives
-
-The project focused on:
-
-- Investigating alternative routes for coal fly ash management
-- Evaluating thermal treatment and vitrification as a method for reducing and stabilizing CFA
-- Recovering silica from CFA through wet-chemical processing
-- Characterizing the elemental composition of the starting fly ash
-- Exploring the potential of resource recovery as an alternative to conventional disposal
+The overall objective was to explore coal fly ash not only as an industrial waste stream, but also as a potential **secondary raw-material source**.
 
 ---
 
-# Experimental Workflow
+## Experimental Approach
 
-The experimental work consisted of two parallel processing routes.
+The project consisted of two experimental routes:
 
-```text
-                         COAL FLY ASH
-                              │
-               ┌──────────────┴──────────────┐
-               │                             │
-       THERMAL PROCESSING             SILICA RECOVERY
-               │                             │
-          Wet Sieving                 Alkali Dissolution
-               │                         8 M NaOH
-         Pelletization                       │
-               │                      Sodium Silicate
-          Sintering                          │
-            800°C                     Acid Neutralization
-               │                             │
-         Vitrification                    Sol-Gel
-           1400°C                            │
-               │                     Washing / Purification
-        Vitrified Slag                       │
-                                         Calcination
-                                             │
-                                      Recovered Silica
-```
+### Route 1 — Thermal Processing
+
+**Wet Sieving → Pelletization → Sintering → Vitrification**
+
+### Route 2 — Silica Recovery
+
+**Alkali Dissolution → Sodium Silicate Formation → Acid Neutralization → Sol-Gel Formation → Purification → Calcination**
 
 ---
 
 # 1. Coal Fly Ash Pretreatment
 
-Coal fly ash used in the project was obtained from an **MSEB plant**.
+Coal fly ash obtained from an MSEB plant was initially wet-sieved to remove larger particles and impurities.
 
-Approximately **50 g of CFA** was initially wet-sieved to remove larger particles and impurities.
+Approximately **50 g of CFA** was mixed with water and passed through a **45 µm sieve**. The finer fraction was collected and dried at **120 °C for 1 h**.
 
-### Wet-Sieving Procedure
-
-- CFA was mixed with water to form a slurry
-- The slurry was passed through a **45 µm sieve**
-- The finer fraction was collected
-- The resulting slurry was dried at **120 °C for 1 h**
-
-The dried fly ash was subsequently used for pellet preparation.
+![Wet Sieving](figure/wet_sieving.png)
 
 ---
 
 # 2. Pelletization
 
-Fly-ash pellets were prepared to enable controlled thermal treatment.
+The dried CFA was consolidated into pellets for controlled thermal treatment.
 
-### Pellet Preparation
+### Pelletization Parameters
 
 - CFA per pellet: approximately **1.2 g**
 - Binder: **polyvinyl alcohol (PVA)**
@@ -96,9 +59,7 @@ Fly-ash pellets were prepared to enable controlled thermal treatment.
 - Die lubricant: stearic acid + acetone
 - Compaction load: approximately **2 tons**
 
-The CFA and PVA were mixed before being compacted using a cold-pressing setup.
-
-Pelletization provided a consolidated specimen for subsequent sintering and vitrification experiments.
+![Pelletization](figure/pelletization.png)
 
 ---
 
@@ -106,43 +67,41 @@ Pelletization provided a consolidated specimen for subsequent sintering and vitr
 
 ## Sintering
 
-The CFA pellet was heated to:
+The CFA pellet was sintered at:
 
 **800 °C for 1 h**
 
-The treated pellet exhibited a visible color change following sintering.
+The treatment produced visible changes in the pellet, with the project reporting an approximate **2% mass change/loss** at this stage.
 
-The experiment recorded an approximate **2% mass change/loss** at this treatment stage according to the project report.
-
----
+![Sintered Pellet](figure/sintered_pellet.png)
 
 ## Vitrification
 
-A second high-temperature treatment was performed to investigate vitrification of the fly ash.
+High-temperature vitrification was subsequently investigated using the following conditions:
 
-### Vitrification Parameters
+| Parameter | Value |
+|---|---:|
+| Temperature | **1400 °C** |
+| Heating rate | **5 °C/min** |
+| Holding time | **1 h** |
+| Crucible | Alumina |
+| Cooling | Furnace cooling |
 
-- Temperature: **1400 °C**
-- Heating rate: **5 °C/min**
-- Holding time: **1 h**
-- Container: alumina crucible
-- Cooling: furnace cooling
+The process produced a dark, glass-like vitrified product and substantial physical/volume reduction.
 
-The treatment produced a dark, glass-like vitrified product.
+The project reported approximately **40% weight loss at 1400 °C** under the investigated conditions.
 
-The project recorded substantial dimensional/volume reduction following the high-temperature treatment and reported approximately **40% weight loss at 1400 °C** under the experimental conditions.
-
-The experiment demonstrated the strong physical transformation of pelletized CFA during high-temperature processing.
+![Vitrified Slag](figure/vitrified_slag.png)
 
 ---
 
-# 4. Silica Recovery from Coal Fly Ash
+# 4. Silica Recovery
 
-The second part of the project investigated the recovery of silica through **alkali dissolution followed by sol-gel precipitation**.
+The second experimental route investigated silica recovery from CFA using **alkali dissolution followed by sol-gel processing**.
 
 ## Alkali Dissolution
 
-Approximately **10 g of CFA** was processed using:
+Approximately **10 g of CFA** was treated under the following conditions:
 
 | Parameter | Value |
 |---|---:|
@@ -152,120 +111,52 @@ Approximately **10 g of CFA** was processed using:
 | Reaction time | **90 min** |
 | Stirring speed | **400–500 rpm** |
 
-After the reaction:
-
-1. The mixture was cooled to room temperature
-2. The solid residue was separated by centrifugation at **5000 rpm for 5 min**
-3. The liquid fraction was further filtered
-4. A transparent sodium-silicate-containing solution was obtained
-
-The resulting solution had a reported pH of approximately **13–14**.
-
----
+Following the reaction, the mixture was cooled and centrifuged at **5000 rpm for 5 min**. The liquid fraction was then filtered to obtain a transparent sodium-silicate-containing solution with a reported pH of approximately **13–14**.
 
 ## Sol-Gel Formation
 
-The extracted sodium-silicate solution was progressively neutralized using **1 M HCl**.
+The sodium silicate solution was neutralized using **1 M HCl**.
 
-A white gel began forming at approximately **pH 10**.
+A white gel began forming at approximately **pH 10** and was allowed to mature for approximately **40 h**.
 
-The gel was then allowed to mature for approximately:
+The material was subsequently:
 
-**40 h**
+1. Centrifuged
+2. Washed with deionized water
+3. Washed with ethanol
+4. Acid-treated for further purification
+5. Dried and calcined at approximately **400 °C**
 
-Following maturation:
-
-- The material was centrifuged at **5000 rpm for 8 min**
-- The precipitate was collected
-- It was washed twice with deionized water
-- A final ethanol wash was performed
-
----
-
-## Purification and Calcination
-
-The recovered material underwent an additional acid-treatment step using:
-
-- **1 M HCl**
-- **120 °C**
-- **3 h**
-- **200–300 rpm stirring**
-- Solid : liquid ratio of **1 : 10**
-
-The particles were subsequently recovered by centrifugation, dried, and calcined at approximately:
-
-**400 °C**
+![Silica Extraction Process](figure/silica_extraction_process.png)
 
 ---
 
 # 5. Silica Recovery Result
 
-The project reported approximately:
+The project recovered approximately:
 
-> **0.3 g of silica-containing material recovered from 10 g of starting coal fly ash**
+> **0.3 g of silica-containing material from 10 g of starting coal fly ash**
 
-This demonstrated the feasibility of recovering a silicon-rich product from CFA using alkali dissolution followed by sol-gel processing.
+This demonstrated the feasibility of recovering a silicon-rich product from CFA through alkali dissolution and sol-gel processing.
 
-Further optimization would be required to improve recovery and quantitatively establish the purity and yield of the extracted material.
+Further characterization and process optimization would be required to quantitatively establish product purity and optimize recovery.
 
 ---
 
 # 6. Coal Fly Ash Composition
 
-The starting CFA was analyzed using **X-ray fluorescence spectroscopy (XRF)** to examine its elemental composition.
+The starting CFA was characterized using **X-ray fluorescence spectroscopy (XRF)**.
 
-The analysis indicated that silicon and aluminum were the dominant detected elements:
+Silicon and aluminum were the dominant detected elements:
 
 | Major Constituent | Approximate Reported Concentration |
 |---|---:|
 | Si | **~54%** |
 | Al | **~22%** |
 
-Fe, Ca, and K were also detected, together with smaller concentrations of additional elements.
+Fe, Ca, and K were also detected, along with smaller concentrations of other elements.
 
 The high silicon content provided the basis for investigating CFA as a potential feedstock for silica recovery.
-
----
-
-# Process–Material Relationship
-
-The project demonstrated two distinct approaches to CFA utilization.
-
-### Thermal Route
-
-```text
-CFA
- ↓
-Pelletization
- ↓
-Sintering
- ↓
-High-Temperature Vitrification
- ↓
-Dense / Glass-Like Product
-```
-
-This route focused on transforming the physical state of the waste through high-temperature processing.
-
-### Resource-Recovery Route
-
-```text
-CFA
- ↓
-NaOH Dissolution
- ↓
-Silicate-Rich Leachate
- ↓
-HCl Neutralization
- ↓
-Sol-Gel Formation
- ↓
-Purification + Calcination
- ↓
-Silica-Containing Product
-```
-
-This route treated CFA as a **secondary source of silicon** rather than solely as a material requiring disposal.
 
 ---
 
@@ -273,96 +164,77 @@ This route treated CFA as a **secondary source of silicon** rather than solely a
 
 | Aspect | Experimental Observation |
 |---|---|
-| Starting CFA | Silicon-rich material, with ~54% Si reported by XRF |
+| CFA composition | Silicon-rich, with ~54% Si reported by XRF |
 | Sintering | CFA pellet successfully treated at 800 °C |
-| Vitrification | Glass-like product obtained after treatment at 1400 °C |
+| Vitrification | Glass-like product obtained at 1400 °C |
 | High-temperature treatment | Significant physical/volume reduction observed |
-| Silica extraction | Silica-containing product recovered through alkali dissolution and sol-gel processing |
-| Material recovered | Approximately **0.3 g from 10 g starting CFA** |
-
-The results support the broader concept of **coal fly ash valorization**, where industrial waste can potentially be converted into stabilized materials or used as a feedstock for value-added material recovery.
+| Silica recovery | Silica-containing material recovered through alkali-assisted sol-gel processing |
+| Recovered material | Approximately **0.3 g from 10 g starting CFA** |
 
 ---
 
 # Engineering Significance
 
-This project illustrates the connection between **waste management and materials processing**.
-
-Instead of considering coal fly ash exclusively as a disposal problem, the project investigated two possible materials-engineering strategies:
+This project demonstrates two different materials-engineering approaches to coal fly ash utilization.
 
 ### Waste Stabilization
 
-High-temperature treatment can substantially alter the morphology and physical form of CFA and produce a consolidated vitrified material.
+High-temperature processing transformed pelletized CFA into a consolidated, glass-like material while producing substantial physical reduction.
 
 ### Resource Recovery
 
-The high silicon content of CFA makes it a potential secondary feedstock for silica recovery through chemical processing.
+The high silicon content of CFA enabled investigation of the waste as a **secondary feedstock for silica recovery** through wet-chemical processing.
 
-Together, these approaches demonstrate how principles of **powder processing, high-temperature materials engineering, hydrometallurgical extraction, and sol-gel chemistry** can be applied to industrial-waste valorization.
+Together, the two routes demonstrate how **powder processing, high-temperature materials processing, chemical extraction, and sol-gel chemistry** can be applied to industrial-waste valorization.
 
 ---
 
-# Limitations and Future Work
+# Limitations & Future Work
 
-This project served as an exploratory study, and several areas could be developed further:
+Potential extensions of this work include:
 
-- Quantitative determination of silica purity after extraction
+- Quantitative determination of recovered silica purity
 - Optimization of NaOH concentration and solid-to-liquid ratio
 - Optimization of precipitation pH and gel-aging time
-- Mass-balance analysis across the extraction process
-- Comparison of silica recovery under different processing conditions
-- Detailed characterization of the recovered product
+- Complete mass-balance analysis of the extraction process
 - Phase characterization before and after vitrification
+- Detailed characterization of the recovered silica
 - Leaching studies on vitrified CFA
-- Evaluation of energy requirements for high-temperature vitrification
-- Techno-economic comparison of vitrification and resource-recovery routes
-
-These studies would be necessary before evaluating either process for larger-scale implementation.
+- Energy and techno-economic analysis of both processing routes
 
 ---
 
 # Skills & Techniques
 
 ### Materials Processing
-
 - Coal fly ash processing
 - Wet sieving
-- Powder processing
-- Pelletization
+- Powder processing and pelletization
 - Cold compaction
 - Sintering
 - High-temperature vitrification
 - Sol-gel processing
 
 ### Chemical Processing
-
 - Alkali dissolution
 - Acid neutralization
-- Solid-liquid separation
-- Centrifugation
-- Filtration
+- Centrifugation and filtration
 - Washing and purification
 - Calcination
 
-### Materials Characterization
-
+### Characterization & Analysis
 - X-ray fluorescence spectroscopy (XRF)
 - Elemental-composition analysis
-
-### Engineering Analysis
-
-- Waste valorization
 - Process development
+- Waste valorization
 - Materials recovery
-- Thermal-processing analysis
-- Processing–material relationships
 - Sustainable materials engineering
 
 ---
 
 # Project Context
 
-This work was completed as a **third-year B.Tech Mini Project in Metallurgy and Materials Technology at COEP Technological University** under the guidance of **Dr. S. P. Butee**.
+This work was completed as a **B.Tech Mini Project in Metallurgy and Materials Technology at COEP Technological University** under the guidance of **Dr. S. P. Butee**.
 
 ### Contributors
 
@@ -375,4 +247,4 @@ This work was completed as a **third-year B.Tech Mini Project in Metallurgy and 
 
 ## Key Takeaway
 
-> **Coal fly ash can be approached not only as an industrial waste requiring disposal, but also as a potential secondary raw material. This project experimentally explored both high-temperature vitrification and wet-chemical silica recovery as pathways for CFA valorization.**
+> **Coal fly ash can be approached not only as an industrial waste requiring disposal, but also as a potential secondary raw material. This project experimentally explored high-temperature vitrification and wet-chemical silica recovery as two pathways for CFA valorization.**
